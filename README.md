@@ -34,26 +34,56 @@ A modern, interactive Streamlit application for analyzing WhatsApp chat sentimen
 - pip (Python package manager)
 
 ### Setup Steps
+### 🚀 Running the Streamlit Application
 
-1. **Clone or navigate to the project directory**
+#### ✅ If Python is already installed
+
+1. Check Python version
+
 ```bash
-cd "d:\niyathi frd\Whatsapp-Chat-Analyzer"
+py --version
 ```
 
-2. **Install required packages**
+2. Install required libraries
+
 ```bash
-pip install streamlit pandas nltk matplotlib seaborn numpy
+py -m pip install streamlit pandas nltk matplotlib seaborn numpy
 ```
 
-Or use the requirements file:
+3. Run the Streamlit application
+
 ```bash
-pip install -r requirements_streamlit.txt
+py -m streamlit run streamlit_app.py
 ```
 
-3. **Run the Streamlit app**
-```bash
-streamlit run streamlit_app.py
+The application will open in your browser at:
+
 ```
+http://localhost:8501
+```
+
+---
+
+#### ⚠️ If Python is not installed
+
+1. Download and install Python from the official website:
+   https://www.python.org/downloads/
+
+2. After installation, open the project folder in VS Code and run:
+
+```bash
+py --version
+py -m pip install streamlit pandas nltk matplotlib seaborn numpy
+py -m streamlit run streamlit_app.py
+```
+
+The Streamlit app will start and open in your browser at:
+
+```
+http://localhost:8501
+```
+
+
 
 The app will open in your default web browser at `http://localhost:8501`
 
